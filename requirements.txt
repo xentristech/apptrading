@@ -1,4 +1,7 @@
-MetaTrader5==5.0.45
+# MetaTrader5 is only available on Windows. Guard the dependency so that
+# `pip install -r requirements.txt` succeeds on other platforms where the
+# package is not distributed.
+MetaTrader5==5.0.45; platform_system == "Windows"
 python-dotenv==1.0.1
 requests==2.32.2
 pytz==2024.1
