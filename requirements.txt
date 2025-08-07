@@ -1,0 +1,5 @@
+MetaTrader5==5.0.45
+python-dotenv==1.0.1
+requests==2.32.2
+pytz==2024.1
+openai==1.30.1     # cliente oficial; apunta a Ollama gracias a api_base
